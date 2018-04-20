@@ -1,0 +1,58 @@
+A:visited {
+	TEXT-DECORATION: none; color:#333;
+}
+A:link {
+	TEXT-DECORATION: none; color:#333;
+}
+A:hover {
+	TEXT-DECORATION: underline;
+	color:#333;
+}
+DIV {
+	FONT-SIZE: 9pt
+}
+FORM {
+	FONT-SIZE: 9pt
+}
+P {
+	FONT-SIZE: 9pt;
+}
+TD {
+	FONT-SIZE: 9pt
+}
+BODY {
+	FONT-SIZE: 9pt
+}
+BODY {
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonface; SCROLLBAR-SHADOW-COLOR: buttonface; SCROLLBAR-3DLIGHT-COLOR: buttonhighlight; SCROLLBAR-TRACK-COLOR: #eeeeee; color:#333;
+}
+#TableTitleLink A:link {
+	COLOR: #000000
+}
+#TableTitleLink A:visited {
+	COLOR: #000000
+}
+.a1 {
+	BACKGROUND-IMAGE: url(./style/titlebg.gif); COLOR: #000000
+}
+.a2 {
+	BACKGROUND-COLOR: #a4b6d7
+}
+.a3 {
+	BACKGROUND-COLOR: #f2f8ff
+}
+.a4 {
+	BACKGROUND-COLOR: #ecf5ff
+}
+.menuskin {
+	BORDER-RIGHT: #0a2999 1px solid; BORDER-TOP: #0a2999 1px solid; BACKGROUND-IMAGE: url(menubg.gif); VISIBILITY: hidden; BORDER-LEFT: #0a2999 1px solid; BORDER-BOTTOM: #0a2999 1px solid; POSITION: absolute
+}
+.menuitems {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; MARGIN: 2px; LINE-HEIGHT: 14pt; PADDING-TOP: 1px
+}
+#mouseoverstyle {
+	BORDER-RIGHT: #0b008b 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #0b008b 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #0b008b 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #0b008b 1px solid; BACKGROUND-COLOR: #ffeec2
+}
+.menuskin A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 30px
+}

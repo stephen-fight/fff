@@ -1,0 +1,9 @@
+<IfModule !mod_rewrite.c>
+	ErrorDocument 500 'mod_rewrite must be enabled'
+</IfModule>
+
+RewriteEngine on
+RewriteCond $1 !^(index\\.php|adm|\\.txt)
+RewriteCond %{REQUEST_URI} !\.php$
+RewriteCond %{QUERY_STRING} !(^route)
+RewriteRule (.*) /?route=%{REQUEST_URI} [L]
